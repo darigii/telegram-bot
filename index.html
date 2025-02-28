@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Каталог</title>
+</head>
+<body>
+
+    <header>
+        <button class="menu-btn" onclick="scrollToSection('food')">Еда</button>
+        <button class="menu-btn" onclick="scrollToSection('cosmetics')">Косметика</button>
+        <button class="menu-btn" onclick="scrollToSection('albums')">Альбомы</button>
+    </header>
+
+    <div class="container">
+        <h2 id="food">Еда</h2>
+        
+        <h3>Рамен</h3>
+        <div class="grid">
+            <div class="item"><img src="ph/rm1.jpeg" alt="Рамен 1"><p>SamYang микс 8шт - 1450₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/rm2.jpeg" alt="Рамен 2"><p>Hot chicken карбонара - 350₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/rm3.jpeg" alt="Рамен 3"><p>SamYang Hot chicken острая - 350₽</p><button class="btn">Добавить</button></div>
+        </div>
+
+        <h3>Токпокки</h3>
+        <div class="grid">
+            <div class="item"><img src="ph/tk1.jpeg" alt="Токпокrи 1"><p>Токпокки Yopokki с сыром   - 300₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/tk2.jpeg" alt="Токпокrи 2"><p>окпокки с соусом кимчи- 300₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/tk3.jpeg" alt="Токпокrи 3"><p>ТТокпокки с соусом Jajang - 300₽</p><button class="btn">Добавить</button></div>
+        </div>
+
+        <h3>Соусы</h3>
+        <div class="grid">
+            <div class="item"><img src="ph/s1.jpeg" alt="Соус 1"><p>Соус со вкусом острой курицы - 600₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/s2.jpeg" alt="Соус 2"><p>Соус со вкусом курицы Булдак - 600₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/s3.jpeg" alt="Соус 3"><p>Острый соус "ПАД ТАЙ"  - 750₽</p><button class="btn">Добавить</button></div>
+        </div>
+
+        <h3>Конфеты</h3>
+        <div class="grid">
+            <div class="item"><img src="ph/sw1.jpeg" alt="Конфеты"><p>Pocky 2шт - 100₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/sw2.jpeg" alt="Конфеты"><p>Pocky 2шт - 500₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/sw3.jpeg" alt="Конфеты"><p>Милкис - 100₽</p><button class="btn">Добавить</button></div>
+        </div>
+
+        <h2 id="cosmetics">Косметика</h2>
+        <div class="grid">
+            <div class="item"><img src="ph/ph1.jpeg" alt="Тени"><p>Палетка для глаз - 2500₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/ph2.jpeg" alt="Кушон"><p>Кушон для лица  - 1500₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/ph3.jpeg" alt="Румяна"><p>Румяна - 1150₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/ph4.jpeg" alt="Консилер"><p>Консилер - 700₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/ph5.jpeg" alt="Тинт"><p>Тинт для губ - 1450₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/ph6.jpeg" alt="Праймер"><p>Праймер - 900₽</p><button class="btn">Добавить</button></div>
+        </div>
+
+        <h2 id="albums">Альбомы</h2>
+        <div class="grid">
+            <div class="item"><img src="ph/al.jpeg" alt="Альбом Blackpink"><p>Blackpink Born Pink - 3200₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/al1.jpeg" alt="Альбом BTS"><p>New Jeans Bunny Bag - 3500₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/al2.jpeg" alt="Альбом New Jeans"><p>BTS Love Yourself - 6000₽</p><button class="btn">Добавить</button></div>
+        </div>
+
+        <h2 id="albums">Одежда</h2>
+        <div class="grid">
+            <div class="item"><img src="ph/cl1.jpeg" alt="Альбом Blackpink"><p>MINISO, Кроссовки - 2200₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/cl2.jpeg" alt="Альбом BTS"><p>MINISO, Футболка - 1500₽</p><button class="btn">Добавить</button></div>
+            <div class="item"><img src="ph/cl3.jpeg" alt="Альбом New Jeans"><p>MINISO, Джинсы Hello Kitty - 2200₽</p><button class="btn">Добавить</button></div>
+        </div>
+    </div>
+
+    <script>
+        function scrollToSection(id) {
+            document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
