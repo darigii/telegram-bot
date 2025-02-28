@@ -1,0 +1,48 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оплата заказа</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+    <div class="header">
+        <h2>Оплата заказа</h2>
+    </div>
+
+    <div class="payment-container">
+        <div class="transparent-box">
+            <h3>Платежная информация</h3>
+            <label for="card-number">Платежная карта</label>
+            <input type="text" id="card-number" placeholder="0000 0000 0000 0000" maxlength="19">
+
+            <label for="card-holder">Держатель карты</label>
+            <input type="text" id="card-holder" placeholder="Иван Иванов">
+
+            <label for="expiry-date">Срок действия</label>
+            <input type="text" id="expiry-date" placeholder="MM/YY" maxlength="5">
+
+            <label for="cvv">CVV</label>
+            <input type="password" id="cvv" placeholder="***" maxlength="3">
+        </div>
+
+        <div class="transparent-box">
+            <h3>Платежный адрес</h3>
+            <label for="country">Страна</label>
+            <input type="text" id="country" placeholder="Россия">
+
+            <label for="address">Адрес</label>
+            <input type="text" id="address" placeholder="Улица, дом, квартира">
+        </div>
+
+        <div class="checkbox-container">
+            <input type="checkbox" id="save-details">
+            <label for="save-details">Сохранить реквизиты</label>
+        </div>
+
+        <button class="order-btn">Заказать</button>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+    text-align: center;
+}
+
+.header {
+    background: lightpink;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.payment-container {
+    max-width: 390px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.transparent-box {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(243, 135, 151);
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.checkbox-container input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.checkbox-container label {
+    transition: color 0.3s ease;
+}
+
+.checkbox-container input:checked + label {
+    color: rgb(0, 0, 0);
+}
+
+.order-btn {
+    background: lightpink;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.order-btn:hover {
+    background: lightgreen;
+}
+
+
